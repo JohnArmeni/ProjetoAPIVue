@@ -7,7 +7,7 @@ RA: 1943721</br>
 Matéria: Desenvolvimento Web</br>
 </br>
 
-<p color:"green">Iniciando projeto com Vue.js, ainda em fase de escolha da API</p>
+`hex(#0d730d)`Iniciando projeto com Vue.js, ainda em fase de escolha da API
 
 
 ## Recommended IDE Setup

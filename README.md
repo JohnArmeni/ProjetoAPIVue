@@ -1,6 +1,14 @@
-# projetoapivue
+## projetoapivue
 
-This template should help get you started developing with Vue 3 in Vite.
+Curso: Análise e Desenvolvimento de Sistemas </br>
+Termo: 4</br>
+Nome: John Anderson Armeni</br>
+RA: 1943721</br>
+Matéria: Desenvolvimento Web</br>
+</br>
+
+<p color:"green">Iniciando projeto com Vue.js, ainda em fase de escolha da API</p>
+
 
 ## Recommended IDE Setup
 

@@ -7,7 +7,7 @@ RA: 1943721</br>
 Matéria: Desenvolvimento Web</br>
 </br>
 
-`hex(#0d730d)`Iniciando projeto com Vue.js, ainda em fase de escolha da API
+`hex(#0d730d)`Iniciando projeto com Vue.js, ainda em fase de escolha da API`hex(#0d730d)`
 
 
 ## Recommended IDE Setup

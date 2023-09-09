@@ -12,29 +12,17 @@ onMounted(() => {
   })
 })
 
-
 </script>
 
 <template>
   <main>
-    <div class="container">
-      <div class="row mt-4">
-        <div class="col-sm-12 col-md-6" >
-          <div class="card" style="width: 18rem;">
-            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Onix</h5>
-              <p class="card-text">Premier 2023/2024</p>
-              
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://garagem360.com.br/wp-content/uploads/2022/09/ChevroletOnixRS2022dianteira-1024x683-1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Onix</h5>
-              <p class="card-text">Pokemon tipo pedra</p>
-            </div>
-          </div>
+    <div class="container-fluid">
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     </div>

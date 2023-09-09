@@ -5,43 +5,25 @@ let num = ref(0);
 
 
 <template>
-  <nav class= "navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body" data-bs-theme="blue">
-    <div class= "container-fluid">
-      <router-link to= "/" class="navbar-brand">Pokedex</router-link>
-      <button class= "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class= "navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg static-top fixed-top" style="background-color: lightgreen;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ANTT Pesquisa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about" class="nav-link">About</router-link>
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Busca</a>
+          <a class="nav-link" href="#">Sobre</a>
+          <a class="nav-link" aria-disabled="true">Quem somos</a>
+        </div>
       </div>
     </div>
   </nav>
-  <div class="main">
-    <router-view></router-view>
-  </div>
 
-  <footer class="bg-dark text-light">
-    <div>Unimar | ADS | Dono lindo e sexy {{ new Date().getFullYear() }}</div>
-  </footer>
-  
 
+ 
 </template>
 
-<style>
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 28px;
-  }
-  </style>
+

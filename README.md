@@ -1,4 +1,13 @@
-# pokedex
+# BallDontLie
+
+Nome: John Anderson Armeni</br>
+RA: 1943721</br>
+Curso: Análise e Desenvolvimento de Sistemas</br>
+Termo: 4</br>
+Disciplina: Desenvolvimento Web</br>
+</br>
+
+Este projeto fará o consumo da API BallDontLie, que mostra times de basquete da NBA League</br>
 
 This template should help get you started developing with Vue 3 in Vite.
 

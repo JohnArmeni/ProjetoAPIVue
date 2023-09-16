@@ -1,29 +1,50 @@
 <script setup>
 import {ref} from 'vue'
-let num = ref(0);
+
+let num = ref(0)
 </script>
 
-
 <template>
-  <nav class="navbar navbar-expand-lg static-top fixed-top" style="background-color: lightgreen;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">ANTT Pesquisa</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  
+  <nav class= "navbar navbar-expand-lg navbar-dark border-bottom border-body" style="background-color:darkred;">
+    <div class= "container-fluid">
+      <router-link to= "/" class="navbar-brand">BallDontLie</router-link>
+      <button class= "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class= "navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Busca</a>
-          <a class="nav-link" href="#">Sobre</a>
-          <a class="nav-link" aria-disabled="true">Quem somos</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/about" class="nav-link">Sobre mim</router-link>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+  <div class="main">
+    <router-view></router-view>
+  </div>
 
+  <footer>
+    <div>Unimar | ADS | Projeto API {{ new Date().getFullYear() }}</div>
+  </footer>
+  
 
- 
 </template>
-
+<style>
+  footer {
+    background-color: darkred;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+  }
+  </style>
 

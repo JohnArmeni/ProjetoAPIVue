@@ -29,7 +29,7 @@ let num = ref(0)
   </div>
 
   <footer>
-    <div>Unimar | ADS | Projeto API {{ new Date().getFullYear() }}</div>
+    <div>Unimar | ADS | BallDontLie {{ new Date().getFullYear() }}</div>
   </footer>
   
 

@@ -58,5 +58,11 @@ export default {
     </li>
   
 </ul>
+<div class="img">
+  <img src="src\assets\cryingjordan.jpg" class="img-thumbnail border-0 rounded float-left" alt="..." style="width:200px; height:200px">
+  <h5>Don't cry, Jordan</h5>
+</div>
+
+
 
 </template>

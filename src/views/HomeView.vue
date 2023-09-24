@@ -38,8 +38,8 @@ onMounted(() =>{
             <div class="card-body row">
             <ListaTimes
             v-for="time in times"
-            :key="time.name"
-            :name="time.full_name"
+            :key="time.full_name"
+            :name="time.name"
             :id="time.id"
             />
             </div>

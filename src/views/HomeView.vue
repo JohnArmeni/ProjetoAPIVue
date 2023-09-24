@@ -2,8 +2,9 @@
 import { capitalize, onMounted, reactive, ref } from 'vue';
 import ListaTimes from '../components/ListaTimes.vue';
 
-let baseUrlSvg = ref("https://raw.githubusercontent.com/PokeApi/sprites/master/sprites/pokemon/other/dream-world");
+
 let times = reactive(ref());
+
 
 onMounted(() =>{
   fetch("https://www.balldontlie.io/api/v1/teams/")

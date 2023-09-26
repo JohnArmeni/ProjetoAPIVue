@@ -8,8 +8,12 @@ Disciplina: Desenvolvimento Web</br>
 </br>
 
 Este projeto fará o consumo da API BallDontLie, que mostra times de basquete da NBA League</br>
+API utilizada: (https://www.balldontlie.io/home.html#introduction)</br>
+Para executar, basta clonar o repositório ou baixar o arquivo em formato .zip, descompactar no computador e abrir com a IDE de preferência (recomendo Visual Studio Code) e seguir os passos destacados abaixo. </br>
+Na página inicial, temos um breve resumo que diz o que o site fará e clicando nos detalhes de cada time, é redirecionado para uma nova página onde são mostradas maiores informações, como nome completo, estado de origem, etc. </br>
+O botão "Sobre mim" ainda está em construção, não consegui concluir :) . </br>
 
-This template should help get you started developing with Vue 3 in Vite.
+
 
 ## Recommended IDE Setup
 
